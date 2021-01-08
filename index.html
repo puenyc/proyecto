@@ -27,7 +27,6 @@
     <section class="hero">
         <div class="contenido-hero">
             <h2>Diseño y Desarrollo Web <span>Freelancer</span></h2>
-            
             <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <circle cx="12" cy="11" r="3" />
@@ -43,8 +42,7 @@
     <main class="contenedor sombra">
         <h2>Mis Servicios</h2>
 
-        <div class="servicios">
-            <section class="servicio" >
+            <section class="servicio">
                 <h3>Diseño Web</h3>
                 <div class="iconos">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -54,14 +52,12 @@
                     <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
                     <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
                     </svg>
-                </div>    
-        </div>  
+                </div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non es</p>
             </section>
-
             <section class="servicio">
                 <h3>Aplicaciones Web</h3>
-                 <div class="iconos">
+                <div class="iconos">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <line x1="4" y1="10" x2="4" y2="16" />
@@ -95,36 +91,37 @@
                 </div>  
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non es</p>
             </section>
-    
+
         <section>
         <h2>Contacto</h2>
 
             <form class="formulario">
                 <fieldset>
                     <legend>Contactactame llenando todos los campos</legend>
-                    <div>
+                <div class="contenedor-campos">
+                    <div class="campo">
                         <label for="">Nombre</label>
-                        <input type="text" placeholder="Tu Nombre">
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
                     </div>
 
-                    <div>
+                    <div class="campo">
                         <label for="">Telefono</label>
-                        <input type="tel" placeholder="Tu Telefono">
+                        <input class="input-text" type="tel" placeholder="Tu Telefono">
                     </div>
 
 
-                    <div>
+                    <div class="campo">
                         <label for="">Correo</label>
-                        <input type="email" placeholder="Tu Email">
+                        <input class="input-text" type="email" placeholder="Tu Email">
                     </div>
 
-                    <div>
+                    <div class="campo">
                         <label for="">Mensaje</label>
-                        <textarea></textarea>
+                        <textarea class="input-text"></textarea>
                     </div>
-
-                    <div>
-                        <input type="submit" value="Enviar">
+                </div> 
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
 
                 </fieldset>
@@ -132,7 +129,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados Gaudencio Flores Freelancer</p>
     </footer>
 
