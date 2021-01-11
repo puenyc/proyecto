@@ -139,7 +139,7 @@ h1,h2,h3{
 }
 
 .navegacion-principal a:hover{
-    background-color: #ffc107;
+    background-color: #ffbf69;
     color: #212121;
 }
 
@@ -202,7 +202,7 @@ h1,h2,h3{
 .servicio .iconos {
         height: 15rem;
         width: 15rem;
-        background-color: #ffc107;
+        background-color: #ffbf69;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -226,7 +226,7 @@ h1,h2,h3{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: #ffc107;
+    color: #ffbf69;
 }
 
 @media (min-width: 768px) {
